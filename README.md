@@ -1,11 +1,25 @@
-# VisionTrackSummarizer  
-**AI-powered system to summarize YouTube videos using object detection, tracking, and visual-language models.**
+# VisionGuard
+**AI-powered system for analyzing surveillance footage, detecting object movements, and summarizing security events using object detection, tracking, and visual-language models.**
 
 ---
 
 ##  Overview
 
-This project automates the process of generating summaries from YouTube videos. It uses:
+VisionGuard automates the analysis of surveillance footage to detect unusual activities and provide context-aware summaries of the events. It is designed to help security officers interpret and understand the behavior of objects in real time from surveillance footage. The system uses:
+
+YOLOv8 for object detection and Centroid Tracker for tracking moving objects across video frames.
+
+LLaVA and BLIP to generate context-aware video summaries that describe the movement, interactions, and behavior of objects in the footage.
+
+A security-focused feature that highlights suspicious or unusual behavior based on object movements and interactions, providing alerts and actionable insights.
+
+Key Features:
+Frame-by-frame analysis of surveillance footage with detailed object tracking and movement analysis.
+
+Intelligent summaries that detect and describe unusual activities such as sudden changes in position, interactions between objects (e.g., vehicles and pedestrians), and other potentially suspicious patterns.
+
+Real-time alerts for unusual events based on movement patterns and behavior inconsistencies.
+
 
 -  **YOLOv8n** for real-time object detection  
 -  **Centroid Tracker** to track object movements  

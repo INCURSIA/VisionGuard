@@ -1,0 +1,60 @@
+{
+    "frame": 660,
+    "objects": [
+        {
+            "id": 0,
+            "label": "car",
+            "position": [
+                99,
+                102,
+                249,
+                170
+            ],
+            "description": "a white car driving down a road"
+        },
+        {
+            "id": 1,
+            "label": "car",
+            "position": [
+                534,
+                131,
+                635,
+                186
+            ],
+            "description": "a brown car is driving down the street"
+        },
+        {
+            "id": 2,
+            "label": "person",
+            "position": [
+                337,
+                108,
+                371,
+                183
+            ],
+            "description": "a man in a blue shirt and brown pants"
+        },
+        {
+            "id": 3,
+            "label": "person",
+            "position": [
+                369,
+                109,
+                398,
+                157
+            ],
+            "description": "a man in a black suit is doing a trick"
+        },
+        {
+            "id": 4,
+            "label": "car",
+            "position": [
+                333,
+                113,
+                521,
+                195
+            ],
+            "description": "a man is seen in a car with a broken door"
+        }
+    ]
+}

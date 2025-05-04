@@ -48,7 +48,7 @@ Run the following Python scripts **in this order**:
    ```bash
    from ultralytics import YOLO
    YOLO('yolov8n.pt')
-2. **Download the YouTube Video**
+2. **Download the YouTube Video** [ For Sample only ]
    ```bash
    python youtube_video.py
 3. **Detect and Track Objects**

@@ -30,13 +30,17 @@ The pipeline detects objects, tracks them across frames, and summarizes their ac
 
 Run the following Python scripts **in this order**:
 
-1. **Download the YouTube Video**
+1. **Download the YOLOv8n Model (only once)**
+   ```bash
+   from ultralytics import YOLO
+   YOLO('yolov8n.pt')
+2. **Download the YouTube Video**
    ```bash
    python youtube_video.py
-2. **Detect and Track Objects**
+3. **Detect and Track Objects**
    ```bash
    python classify.py
-3. **Generate Batch Summaries using LLaVA/BLIP**
+4. **Generate Batch Summaries using LLaVA/BLIP**
    ```bash
    python llm_init.py
 
